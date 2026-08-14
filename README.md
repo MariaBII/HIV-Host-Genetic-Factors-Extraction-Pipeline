@@ -94,7 +94,7 @@ The project used Europe PMC full-text articles, manually verified gold-standard 
    ```
 
 **6. Evaluate LLM performance**
-   - Run `evaluate_llm_performance.py` to compare abstract and full-text LLM ouputs against the gold standard dataset.
+   - Run `evaluate_llm_performance.py` to compare abstract and full-text LLM outputs against the gold standard dataset.
    - Uses fuzzy-matching thresholds of 70 for genetic factors and 60 for factor type, association and population.
    - Calculates TP, FP, FN, precision, recall and F1-score overall and for each extraction field.
    - Also generates performance summaries and evaluation figures.
@@ -127,7 +127,7 @@ The project used Europe PMC full-text articles, manually verified gold-standard 
 The repository includes the main datasets used in the analysis:
 
 - `europe_pmc_articles_100.csv` – metadata for the 100-paper evaluation dataset.
-- `gold_dataset_100.csv` – manually verified 100- paper gold standard dataset used for LLM evaluation.
+- `gold_dataset_100.csv` – manually verified 100-paper gold standard dataset used for LLM evaluation.
 - `extracted_factors_1200_fulltext_GPT5.csv` – GPT-5 extraction results from the 1,200-paper large-scale analysis.
 
 Additional intermediate and analysis output files can be regenerated using the provided Python scripts.
