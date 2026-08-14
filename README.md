@@ -113,7 +113,7 @@ The project used Europe PMC full-text articles, manually verified gold-standard 
    python normalise_large_scale_factors.py
    ```
 
-8. **Analyse large-scale extraction results**
+**8. Analyse large-scale extraction results**
    - Run `analyse_large_scale_results.py` to analyse the normalised LLM results from full-text articles.
    - Summarises extraction records, biological entity classes, effect directions, HIV association categories.
    - Saves summary CSV files and figures in `large_scale_analysis/`.
